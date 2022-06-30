@@ -28,17 +28,17 @@ export default class NavBar extends React.Component{
             >
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <a className="nav-link px-1" href="assignment.html">
+                  <a className="nav-link px-1">
                     Home
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link px-md-5 px-sm-1 px-lg-5" href="about.html">
+                  <a className="nav-link px-md-5 px-sm-1 px-lg-5">
                     About
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link px-1" href="info.html">
+                  <a className="nav-link px-1">
                     Contact
                   </a>
                 </li>

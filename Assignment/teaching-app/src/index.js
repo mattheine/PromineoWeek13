@@ -6,7 +6,7 @@ import './index.css';
 //adding Navbar
 import NavBar from './Components/navBar';
 //adding LoginForm
-//import LoginForm from './Components/loginForm';
+import LoginForm from './Components/loginForm';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
@@ -14,6 +14,7 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   React.createElement(NavBar, {}, null)
+  React.createElement(LoginForm, {}, null)
   );
 
 // If you want to start measuring performance in your app, pass a function
